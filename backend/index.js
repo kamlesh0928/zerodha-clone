@@ -198,7 +198,7 @@ app.use(cookieParser());
 app.use("/", authRoute);
 
 app.get("/signup", (req, res) => {
-    res.send("hello me signup kara dunga");
+    res.send("I am here for Signup");
 });
 
 app.get('/allHoldings', async (req, res) => {
