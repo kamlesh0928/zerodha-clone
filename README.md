@@ -1,11 +1,6 @@
 # Zerodha Clone
 
-This project is a **Zerodha Clone**, a stock trading platform simulation. It is built using **React.js** and organized into three separate folders:
-- **Backend**
-- **Dashboard**
-- **Frontend**
-
-Each folder has its own `package.json` file and is structured as an independent project.
+This project is a Zerodha Clone, a simulation of a stock trading platform that provides users with a realistic trading experience. However, please note that this project is for educational and demonstration purposes only, and users cannot actually invest or trade real stocks. It is built using React.js and follows a modular structure, separating the backend, dashboard, and frontend for better scalability and maintainability.
 
 ---
 
