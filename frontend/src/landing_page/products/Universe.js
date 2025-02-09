@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Universe() {
     return (
@@ -65,9 +66,9 @@ function Universe() {
                     </p>
                 </div>
 
-                <button className='p-2 btn btn-primary fs-5 mt-5 mb-5' style={{ width: "20%", margin: "0 auto", backgroundColor: "#387ED1" }}>
+                <Link to={"/signup"} className='p-2 btn btn-primary fs-5 mt-5 mb-5' style={{ width: "20%", margin: "0 auto", backgroundColor: "#387ED1" }}>
                     Sign up for free
-                </button>
+                </Link>
             </div>
         </div>
     );
