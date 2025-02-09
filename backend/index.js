@@ -197,10 +197,6 @@ app.use(cookieParser());
 
 app.use("/", authRoute);
 
-app.get("/signup", (req, res) => {
-    res.send("I am here for Signup");
-});
-
 app.get('/allHoldings', async (req, res) => {
     let allHoldings = await HoldingsModel.find({});
     res.json(allHoldings);

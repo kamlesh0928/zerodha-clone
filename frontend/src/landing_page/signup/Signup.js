@@ -1,12 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
 
 function Signup() {
-
-    const handleRenderSignup = () => {
-        axios.get('http://localhost:3002/signup');
-    };
 
     return (
         <>
@@ -19,7 +14,7 @@ function Signup() {
                     <div className='col-4'>
                         <h1 className='text-muted fs-3'>Signup now</h1>
                         <p className='signup-page-style'>Or track your existing application.</p>
-                        <Link to={"/usersignup"} className='px-3 py-2 btn btn-primary' style={{ backgroundColor: "#6098DA", border: "none" }} onClick={handleRenderSignup}>
+                        <Link to={"/usersignup"} className='px-3 py-2 btn btn-primary' style={{ backgroundColor: "#6098DA", border: "none" }}>
                             Continue
                         </Link>
                     </div>
