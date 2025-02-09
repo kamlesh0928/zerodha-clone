@@ -4,6 +4,11 @@ This project is a Zerodha Clone, a simulation of a stock trading platform that p
 
 ---
 
+## Live Demo
+You can access the live version of the project here: [**Zerodha Clone Live Demo**](https://zerodha-clone-front.onrender.com/)
+
+---
+
 ## Project Structure
 ```
 Zerodha-Clone/
