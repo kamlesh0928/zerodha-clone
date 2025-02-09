@@ -38,14 +38,14 @@ function Login() {
         e.preventDefault();
         if (validate()) {
             try {
-                const response = await fetch('http://localhost:3002/login', {
+                const response = await fetch('https://localhost:3002/login', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(formData)
                 });
                 if (response.ok) {
-                    setFormData({ name: '', email: '', phone: '', password: '' }); // Reset form
-                    window.location.href = 'http://localhost:3001/dashboard';
+                    setFormData({ name: '', email: '', phone: '', password: '' });
+                    window.location.href = 'https://localhost:3001/dashboard';
                 } else {
                     const errorData = await response.json();
                     setSubmitError(errorData.message || 'Login failed');
@@ -108,9 +108,9 @@ function Login() {
                                     onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
                                 >
                                     {showPassword ? (
-                                        <i className="fas fa-eye-slash" style={{ color: '#6c757d' }}></i> // Icon for hidden password
+                                        <i className="fas fa-eye-slash" style={{ color: '#6c757d' }}></i>
                                     ) : (
-                                        <i className="fas fa-eye" style={{ color: '#6c757d' }}></i> // Icon for visible password
+                                        <i className="fas fa-eye" style={{ color: '#6c757d' }}></i>
                                     )}
                                 </button>
                             </div>
