@@ -38,7 +38,7 @@ function Login() {
         e.preventDefault();
         if (validate()) {
             try {
-                const response = await fetch('https://localhost:3002/login', {
+                const response = await fetch('https://zerodha-clone-back.onrender.com/login', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(formData)

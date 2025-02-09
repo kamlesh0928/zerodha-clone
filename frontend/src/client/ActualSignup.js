@@ -53,7 +53,7 @@ function ActualSignup() {
         e.preventDefault();
         if (validate()) {
             try {
-                const response = await fetch('https://localhost:3002/signup', {
+                const response = await fetch('https://zerodha-clone-back.onrender.com/signup', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(formData)
