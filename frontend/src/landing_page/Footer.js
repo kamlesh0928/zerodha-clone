@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
     return (
         <footer className='border-top mt-2' style={{ backgroundColor: "#FBFBFB" }}>
-            <div className='container' style={{width:"75%"}}>
+            <div className='container' style={{ width: "75%" }}>
                 <div className='row mt-5'>
 
                     <div className='col'>
@@ -12,7 +12,7 @@ function Footer() {
                     </div>
 
                     <div className='col'>
-                        <p style={{fontSize:"20px"}}>Company</p>
+                        <p style={{ fontSize: "20px" }}>Company</p>
                         <div>
                             <a href='#' className='text-muted text-decoration-none increase-font'>About</a> <br />
                             <a href='#' className='text-muted text-decoration-none increase-font'>Products</a> <br />
@@ -27,7 +27,7 @@ function Footer() {
                     </div>
 
                     <div className='col'>
-                        <p style={{fontSize:"20px"}}>Support</p>
+                        <p style={{ fontSize: "20px" }}>Support</p>
                         <div className='text-muted'>
                             <a href='#' className='text-muted text-decoration-none increase-font'>Contact us</a> <br />
                             <a href='#' className='text-muted text-decoration-none increase-font'>Support portal</a> <br />
@@ -42,7 +42,7 @@ function Footer() {
                     </div>
 
                     <div className='col'>
-                        <p style={{fontSize:"20px"}}>Account</p>
+                        <p style={{ fontSize: "20px" }}>Account</p>
                         <div>
                             <a href='#' className='text-muted text-decoration-none increase-font'>Open an account</a> <br />
                             <a href='#' className='text-muted text-decoration-none increase-font'>Fund transfer</a>
@@ -80,31 +80,31 @@ function Footer() {
             <div>
                 <ul className='list-unstyled d-flex justify-content-center'>
                     <li className='mx-3'>
-                        <a href='#' className='text-muted text-decoration-none' style={{fontSize:"12px"}}>NSE</a>
+                        <a href='#' className='text-muted text-decoration-none' style={{ fontSize: "12px" }}>NSE</a>
                     </li>
                     <li className='mx-3'>
-                        <a href='#' className='text-muted text-decoration-none' style={{fontSize:"12px"}}>BSE</a>
+                        <a href='#' className='text-muted text-decoration-none' style={{ fontSize: "12px" }}>BSE</a>
                     </li>
                     <li className='mx-3'>
-                        <a href='#' className='text-muted text-decoration-none' style={{fontSize:"12px"}}>MCX</a>
+                        <a href='#' className='text-muted text-decoration-none' style={{ fontSize: "12px" }}>MCX</a>
                     </li>
                     <li className='mx-3'>
-                        <a href='#' className='text-muted text-decoration-none' style={{fontSize:"12px"}}>Terms & conditions</a>
+                        <a href='#' className='text-muted text-decoration-none' style={{ fontSize: "12px" }}>Terms & conditions</a>
                     </li>
                     <li className='mx-3'>
-                        <a href='#' className='text-muted text-decoration-none' style={{fontSize:"12px"}}>Policies & procedures</a>
+                        <a href='#' className='text-muted text-decoration-none' style={{ fontSize: "12px" }}>Policies & procedures</a>
                     </li>
                     <li className='mx-3'>
-                        <a href='#' className='text-muted text-decoration-none' style={{fontSize:"12px"}}>Privacy policy</a>
+                        <a href='#' className='text-muted text-decoration-none' style={{ fontSize: "12px" }}>Privacy policy</a>
                     </li>
                     <li className='mx-3'>
-                        <a href='#' className='text-muted text-decoration-none' style={{fontSize:"12px"}}>Disclosure</a>
+                        <a href='#' className='text-muted text-decoration-none' style={{ fontSize: "12px" }}>Disclosure</a>
                     </li>
                     <li className='mx-3'>
-                        <a href='#' className='text-muted text-decoration-none' style={{fontSize:"12px"}}>For investor's attention</a>
+                        <a href='#' className='text-muted text-decoration-none' style={{ fontSize: "12px" }}>For investor's attention</a>
                     </li>
                     <li className='mx-3'>
-                        <a href='#' className='text-muted text-decoration-none' style={{fontSize:"12px"}}>Investor charter</a>
+                        <a href='#' className='text-muted text-decoration-none' style={{ fontSize: "12px" }}>Investor charter</a>
                     </li>
                 </ul>
             </div>
