@@ -59,7 +59,7 @@ Zerodha-Clone/
 3. **Environment Variables**
    Configure environment variables for the backend. Create a `.env` file in the `backend` directory with necessary variables like:
    ```env
-   MONGO_URI=your-mongodb-connection-string
+   MONGO_URL=your-mongodb-connection-string
    PORT=5000
    TOKEN_KEY=your-token-key-or-any-randow-string
    ```
